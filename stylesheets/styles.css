@@ -43,7 +43,7 @@ p{
 	}
 .wrapper{
 	width: 80%;
-	padding: 0 10px 20px;
+	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ccc;
@@ -54,8 +54,8 @@ header, nav, section, footer{
 	padding: 30px, 20px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px;
 	}
