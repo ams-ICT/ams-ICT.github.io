@@ -94,9 +94,10 @@ code, pre {
 img{
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px;
+	padding: 1px;
+	border-style:ridge;
 	border-radius: 1px;
-	background-color: #002751;
+	border-color: #002751;
 	
 	}
 .logo {
