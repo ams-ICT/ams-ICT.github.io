@@ -61,12 +61,7 @@ header, nav, section, footer{
 	box-shadow: 2px 2px 4px;
 	}
 header{
-	background-image: url(https://ams-ICT.github.io/images/logo1.png);
-	background-repeat:no-repeat;
-	background-position:left center;
-	padding-top: 50px;
-	padding-left: 50px;
-	background: linear-gradient(#6ee, #6cc);
+	background: linear-gradient(#6ee, #002751);
 	}
 nav{
 	background: linear-gradient(#ccc,#ddd)	
