@@ -61,7 +61,7 @@ header, nav, section, footer{
 	box-shadow: 2px 2px 4px;
 	}
 header{
-	background: linear-gradient(#001428, #002751);
+	background-color:#002751;
 	color:#ccc;
 	}
 nav{
@@ -98,7 +98,7 @@ img{
 	padding: 10px;
 	border: 1px solid;
 	border-radius: 5px;
-	background-color: #fff;
+	background-color: #002751;
 	
 	}
 .logo {
