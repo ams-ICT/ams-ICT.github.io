@@ -91,7 +91,7 @@ section{
 code, pre {
 	font-family: 
 	}
-img{
+img, iframe{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1px;
