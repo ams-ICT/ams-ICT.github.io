@@ -95,10 +95,17 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
-	border-radius: 5px;
+	border-radius: 1px;
 	background-color: #002751;
 	
 	}
 .logo {
 	float:left;
+}
+img.logo{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #002751;
 }
