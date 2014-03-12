@@ -29,11 +29,11 @@ h2{
 		
 	}
 h3{
-	fontsize:large;
+	font-size:large;
 	font-weight: 400;
 	}
 h4{
-	fontsize:large;
+	font-size:large;
 	font-weight: 300;
 	}
 p{
@@ -61,7 +61,8 @@ header, nav, section, footer{
 	box-shadow: 2px 2px 4px;
 	}
 header{
-	background: linear-gradient(#6ee, #002751);
+	background: linear-gradient(#001428, #002751);
+	color:#ccc;
 	}
 nav{
 	background: linear-gradient(#ccc,#ddd)	
