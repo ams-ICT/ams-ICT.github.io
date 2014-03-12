@@ -5,7 +5,7 @@
 	}
 body{
 	background-image: url('bg.png');
-	background-color: #66f;
+	background-color: #002751;
 	font-family: Engelbert, Helvetica, Arial, console;
 }
 	
@@ -56,7 +56,7 @@ header, nav, section, footer{
 	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-	background: linear-gradient(#ef9 #002751);
+	background: linear-gradient(#000, #002751);
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px;
 	}
