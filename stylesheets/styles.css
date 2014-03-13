@@ -5,7 +5,7 @@
 	}
 body{
 	background-image: url('bg.png');
-	background-color: #66f;
+	background-color: #002751;
 	font-family: Engelbert, Helvetica, Arial, console;
 }
 	
@@ -29,11 +29,11 @@ h2{
 		
 	}
 h3{
-	fontsize:large;
+	font-size:large;
 	font-weight: 400;
 	}
 h4{
-	fontsize:large;
+	font-size:large;
 	font-weight: 300;
 	}
 p{
@@ -43,10 +43,10 @@ p{
 	}
 .wrapper{
 	width: 80%;
-	padding: 0 10px 20px;
+	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #ccc;
+	background-color: #8ac6ee;
 	border-radius: 10px;
 	}
 header, nav, section, footer{
@@ -54,19 +54,14 @@ header, nav, section, footer{
 	padding: 30px, 20px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0;
-	margin-bottom: 0;
-	background: linear-gradient(#ef9 #c6c696);
+	margin-top: 12px;
+	margin-bottom: 12px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px;
 	}
 header{
-	background-image: url(https://ams-ICT.github.io/images/logo1.png);
-	background-repeat:no-repeat;
-	background-position:left center;
-	padding-top: 50px;
-	padding-left: 50px;
-	background: linear-gradient(#6ee, #6cc);
+	background-color:#002751;
+	color:#ccc;
 	}
 nav{
 	background: linear-gradient(#ccc,#ddd)	
@@ -96,12 +91,22 @@ section{
 code, pre {
 	font-family: 
 	}
-img{
+img, iframe{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1px;
+	border-style:ridge;
+	border-radius: 1px;
+	border-color: #002751;
+	
+	}
+.logo {
+	float:left;
+}
+img.logo{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
-	border: 1px solid;
 	border-radius: 5px;
-	background-color: #fff;
-	
-	}
+	background-color: #002751;
+}
