@@ -12,3 +12,4 @@ Feel free to contribute to this repository, or to fork it for your own school.
 * Videos should be hosted on YouTube and pasted in via an iframe. Use the 'embed fundtion on youTube.
 * Use simple HTML the year 7 spreadsheets unit is the exemplar for HTML layout.
 * PEP 20 applies everywhere.  Even though this is not written in Python (http://legacy.python.org/dev/peps/pep-0020/)
+* Please edit into the development braches - Currently V0.2 (for Summer 1) or V0.3 (for Summer 2).
