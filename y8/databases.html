@@ -67,7 +67,7 @@
   <li>Level 5</li>
   <ul>
   <li>(data) knows that computers use binaryt to represent all information</li>
-  <li>(data) defines datatypes - real and boolean)</li>
+  <li>(data) defines datatypes - (real and boolean)</li>
   <li>(data) queries data on a flat database using SQL</li>
   </ul>
   </ul>
@@ -93,20 +93,47 @@
 
 <h1 id="activity1">Activity 1</h1>
 
-<p>Starting Access</p>
+<p>The planets are interesting features of our solar system which we can use to make a database for.  We can use this database later to extract critical information to use later.</p>
 
 <h2>Learning aims:</h2>
 
 <ul>
-    <li>(L4) performs searches using boolean and relational operators</li>
-    <p></p>
+    <li> Level 3 Data</li>
+    <li>(L4) Performs searches using boolean and relational operators</li>
+    <li>Create and edit data in a flat file database</li>
 </ul>
+<h2>The planets</h2>
+<p>Our information about the planets comes from the following source <a href = http://nssdc.gsfc.nasa.gov/planetary/factsheet/>http://nssdc.gsfc.nasa.gov/planetary/factsheet/</a>. We will ignore the moon.</p>
+<ol>
+    <li>Who wrote the source webpage?</li>
+    <li>How can you tell they are an authority or not?</li>
+    <li>When was the webpage last updated?</li>
+</ol>
+
+The first step in designing a database is to design a set of facts.  a fact is a sentence that relates to a set of information.
+<h3>Example</h3>
+<ul>
+    <li>The planet with the name ___ has a mass of ___ kg.</li>
+    <li>The planet with the name ___ has a diameter of ___m.</li>
+    <li>The planet with the name ___ has a density of ___ kg/m<sup>3</sup></li>
+</ul>
+Note that each of these "binary facts" goes with the same pattern. <quote>The <em>entity</em> with the <em>unique property</em> ___ has a <em>property</em> of ___</quote>
+<ol>
+    <li>What is the entity in each of the examples?</li>
+    <li>What is the unique property in eack of the examples?</li>
+    <li>What are the properties in each of the three examples?</li>
+    <li>Write 4 more binary fact sentences from the tables provided.</li>
+</ol>
+<p>When we talk about databases - we call these properities "fields".  We call the field that is unique to each entity its "key"</p>
+
+<p>The purpose of a key is to speed up searching for things.</p>
+
 </section>
 <section id = "a2">
 
 <h1 id="activity2">Activity 1</h1>
 
-<p>Visual Literacy exercise.</p>
+<p>Guided Database creation.</p>
 
 <h2>Learning aims:</h2>
 
