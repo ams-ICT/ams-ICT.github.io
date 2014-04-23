@@ -4,18 +4,22 @@
 	html{
 	}
 body{
-
+    font-family: Engelbert, Helvetica, Arial, console;
+	margin-left: 2.5cm;
+	margin-right:2cm;
+	margin-top: 3cm;
+	margin-bottom: 3cm;
 }
 	
 p, h6,h5,h4,h3,h2,h1{
 	font-family: Helvetica, Arial, sans-serif;
 	}
 h1, h2{
-	color: #333;
+	color: #222;
 	font-family: "Source Sans Pro", Helvetica, Arial;
 	}
 h3,h4{
-	color: #444;
+	color: #333;
 	}
 h1{
 	font-size: 16pt;
@@ -46,13 +50,9 @@ p{
 	margin-right: 3cm;
 	}
 header, nav, section, footer{
-	width: 80%;
-	padding: 30px, 20px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0;
-	margin-bottom: 0;
-	border-radius: 10px;
+	width:95%;
+	padding:0.5cm;
+	border-radius: 3mm;
 	box-shadow: 2px 2px 4px;
 	}
 header{
