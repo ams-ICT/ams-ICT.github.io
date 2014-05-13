@@ -107,7 +107,14 @@
 </ul>
 <p>Create a word document, put your answers at the start in full sentences.</p>
 <h2>Task 1</h2>
-<p>in your word document try to explain in words how to find all the factors of a number.  Imagine to</p>
+
+<p>Could you explain using only words how to simplify a fraction. Imagine that for this task you are not allowed to use any diagrams, or any mathematical terms that you do not explain</p>
+
+<h2>Task 2</h2>
+
+<p>An algorithm describes a process. </p>
+<p>Lets examine an algorithm and think about its parts</p>
+
 
 </section>
 <section id = "a2">
@@ -161,6 +168,28 @@
     <li>Specific aims for Acivity</li>
 
 </ul>
+<pre>
+    BEGIN
+    INPUT 'Numerator' as the top number of a fraction
+    INPUT 'Denominator' as the bottom number of a fraction
+    SET 'numeratorFactors'as an empty list
+    SET 'denominatorFactors' as an empty list
+    FOR EACH number between 2 and the numerator:
+        SET 'remainder' to the leftover after dividing numerator by the number
+        IF remainder is 0:
+           put the number in the list called 'numeratorFactors'
+    FOR EACH number between 2 and the denominator:
+        SET 'remainder' to the leftover after dividing denominator by the number
+        IF remainder is 0:
+           put the number in the list called 'denominatorFactors'
+    IF any number appears in both 'numeratorFactors'and 'denominatorFactors':
+        SET N to the largest number that appears in both lists.
+        SET numerator to numerator divided by N
+        SET denominator to denominator divided by N
+    OUTput Numerator
+    OUTPUT Denominator
+    END
+</pre>
 </section>
 <section id = "a6">
 
